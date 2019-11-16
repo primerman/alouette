@@ -1,0 +1,15 @@
+.DS_Store
+*.versionsBackup
+.project
+.buildpath
+.settings
+.class
+.idea
+*.iml
+log/
+*/target
+target
+**/localtest/
+# Client Project
+*/target/**
+*/build/**
