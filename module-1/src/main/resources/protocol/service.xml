@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service interface="" version="">
+       <fields>
+              <field name="a" type="a1"/>
+              <field name="b" type="b1"/>
+              <field name="c" type="c1"/>
+       </fields>
+       <methods>
+              <method name="m1">
+                     <paramTypes>
+                            <paramType type="pt1"/>
+                            <paramType type="pt1"/>
+                            <paramType type="pt1"/>
+                     </paramTypes>
+              </method>
+              <method name="m2">
+                     <paramTypes>
+                            <paramType type="pt2"/>
+                            <paramType type="pt2"/>
+                            <paramType type="pt2"/>
+                     </paramTypes>
+              </method>
+       </methods>
+</service>
