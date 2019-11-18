@@ -71,7 +71,7 @@ public class XPathProtocolParser {
                 serviceModule.getMethodsMap().put(methodNameAttr, paramTypeList);
             }
         }
-        map.put(serviceModule.getInterfaceDesc(), serviceModule);
+        map.put(String.format("%s_%s", serviceModule.getInterfaceDesc(), serviceModule.getVersion()), serviceModule);
         return map;
     }
 
